@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<title>E-Portfolio Cedric Van Damme</title>
+<meta charset="UTF-8">
+<meta lang="EN">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/classes.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/main.css">
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="nav">
+        <div class="css-top">
+            <div class="css-bar" id="myNavbar">
+                <a class="css-bar-item css-button css-hover-black css-hide-medium css-hide-large css-right"
+                    href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="#home" class="css-bar-item css-button">HOME</a>
+                <a href="#about" class="css-bar-item css-button css-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+                <div class="css-dropdown-hover css-hide-small">
+                    <a href="#project">
+                        <button class="css-button ">
+                            <i class="fa fa-sitemap"></i> PROJECTS</button>
+                    </a>
+                    <div class="css-dropdown-content css-bar-block css-hide-small">
+                        <a href="#project1" class="css-bar-item css-button css-hide-small">Project Mastermind</a>
+                        <a href="#" class="css-bar-item css-button css-hide-small">Taijitan</a>
+                        <a href="#" class="css-bar-item css-button css-hide-small">Mobile Game</a>
+                    </div>
+                </div>
+                <a href="#contact" class="css-bar-item css-button css-hide-small"><i class="fa fa-envelope"></i>
+                    CONTACT</a>
+                </a>
+                <a href="indexNL.html" class="css-bar-item css-button css-right">
+                    <i class="fa fa-globe"></i>
+                    <u>NL</u>
+                </a>
+            </div>
+
+            <!-- Navbar on small screens -->
+            <div id="navDemo" class="css-bar-block css-white css-hide css-hide-large css-hide-medium">
+                <a href="#about" class="css-bar-item css-button" onclick="toggleFunction()">ABOUT</a>
+                <a href="#project" class="css-bar-item css-button" onclick="toggleFunction()">PROJECTS</a>
+                <a href="#contact" class="css-bar-item css-button" onclick="toggleFunction()">CONTACT</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 css-display-container css-opacity-min" id="home">
+        <div class="css-display-middle" style="white-space:nowrap;">
+            <span class="css-center css-padding-large css-black css-xlarge css-wide css-animate-opacity">MY PORTFOLIO
+            </span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="css-content css-container css-padding-64" id="about">
+        <h3 class="css-center">ABOUT ME</h3>
+        <p class="css-center">
+            <em>I'm an ambitious IT-student</em>
+        </p>
+        <p>I'm a student who developed a strong interest in programming Java applications with an eye on C# and mobile
+            applications
+            in the near future.
+            <br> I am proud to say that I have a wide variety of skills, ranging from multilingualism, to programming
+            and
+            user analysis.
+        </p>
+        <div class="css-row">
+            <div class="css-col m6 css-center css-padding-large">
+                <br>
+                <img src="/images/cedric.jpg" class="css-circle css-image" alt="Photo of Me" width="500" height="333">
+            </div>
+
+            <div class="css-col m6 css-padding-large">
+                <font size="4">
+                    <b>Curriculum Vitae</b>
+                </font>
+                <p>
+                    <b>Surname:</b> Cedric
+                    <br>
+                    <b>First name:</b> Van Damme
+                    <br>
+                    <b>Date of birth:</b> 26 May 1998
+                    <br>
+                    <b>Address:</b> Konkelgoedstraat 29
+                    <br>
+                    <b>Town:</b> 9280 Lebbeke
+                    <br>
+                    <b>Phone:</b> +3252 52 46 53
+                    <br>
+                    <b>Cellphone:</b> +32 471 48 72 60
+                    <br>
+                    <b>E-mail address:</b> cvandamme1998@gmail.com
+                    <br>
+                    <b>Marital status:</b> In a relationship
+                </p>
+                <font size="4">
+                    <b>Education</b>
+                </font>
+                <p>
+                    <b>High school degree:</b> Science and modern languages
+                </p>
+                <font size="4">
+                    <b>Job experience</b>
+                </font>
+                <p>
+                    <b>NMBS August 2016:</b> Student job in Industrial Electronics
+                    <br>
+                    <b>NMBS July 2018:</b> Student job in central warehouse and SAP
+                    <br>
+                </p>
+            </div>
+        </div>
+        <p class="css-large css-center css-padding-16">Im really good at:</p>
+        <p class="css-wide">
+                <i class="fa fa-cogs"></i>Problem analysis</p>
+            <div class="css-light-grey">
+                <div class="css-container css-padding-small css-dark-grey css-center" style="width:90%">90%</div>
+            </div>
+            <p class="css-wide">
+                <i class="fa fa-laptop"></i>Java</p>
+            <div class="css-light-grey">
+                <div class="css-container css-padding-small css-dark-grey css-center" style="width:75%">75%</div>
+            </div>
+            <p class="css-wide">
+                <i class="fa fa-laptop"></i>ASP.NET</p>
+            <div class="css-light-grey">
+                <div class="css-container css-padding-small css-dark-grey css-center" style="width:80%">80%</div>
+            </div>
+            <p class="css-wide">
+                <i class="fas fa-database"></i>SQL</p>
+            <div class="css-light-grey">
+                <div class="css-container css-padding-small css-dark-grey css-center" style="width:60%">60%</div>
+            </div>
+            <p class="css-wide">
+                <i class="fa fa-comment"></i>English</p>
+            <div class="css-light-grey">
+                <div class="css-container css-padding-small css-dark-grey css-center" style="width:95%">95%</div>
+            </div>
+            <p class="css-wide">
+                <i class="fa fa-comment"></i>French</p>
+            <div class="css-light-grey">
+                <div class="css-container css-padding-small css-dark-grey css-center" style="width:75%">75%</div>
+            </div>
+            <p class="css-wide">
+                <i class="fa fa-comment"></i>Dutch</p>
+            <div class="css-light-grey">
+                <div class="css-container css-padding-small css-dark-grey css-center" style="width:100%">100%</div>
+            </div>
+    </div>
+
+    <div class="css-row css-center css-dark-grey css-padding-16">
+        <div class="css-quarter css-section">
+            <span class="css-xlarge">7</span>
+            <br> Project Partners
+        </div>
+        <div class="css-quarter css-section">
+            <span class="css-xlarge">2</span>
+            <br> Projects Done
+        </div>
+        <div class="css-quarter css-section">
+            <span class="css-xlarge">4</span>
+            <br> GitHub Projects
+        </div>
+        <div class="css-quarter css-section">
+            <span class="css-xlarge">500+</span>
+            <br> Hours Spent Programming
+        </div>
+    </div>
+
+
+    <!-- Third Parallax Image with Project Text -->
+    <div class="bgimg-3 css-display-container css-opacity-min" id="project">
+        <div class="css-display-middle">
+            <span class="css-xxlarge css-text-white css-wide">Projects</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="css-content css-container css-padding-64" id="project1">
+        <h3 class="css-center">Project I</h3>
+        <p class="css-center">
+            <em>Our first project involved creating a game of MasterMind.
+                <br> As a group of 4 students, we had a couple of months to create a working version of the popular game
+                calledMasterMind</em>
+        </p>
+        <div class="css-row">
+            <div class="css-col m8 css-padding-large">
+                <p>
+                    Before we started working on this project, we split it in 7 functionalities. We made a rough analysis of each functionality, so we could go more in-depth afterwards.
+                        <br><br>We used Java for the implementation. This was the first programming language we learned, therefore it was our only option.
+                        One of the major advantages of Java, is the ease-of-use. After a while, we noticed that Java can be pretty hard to keep readable and structured.
+                        <br><br>
+                        The first functionalities went without breaking a sweat, but after a while, it became harder and we noticed our implementation wasn't good enough. We had to rewrite a good chuck of the code, but this meant we were behind on schedule.
+                        To fix this problem, we split our team in half. One half was going to implement the rest of the code, the other half was going to clean up the mess. 
+                        This caused a lot of miscommunication, but in the end it worked out pretty well. We managed to deliver a working product.
+                </p>
+            </div>
+            <div class="css-col m4 css-center css-padding-large">
+                <br>
+                <img src="/images/mastermind.jpg" class="css-circle css-image" alt="Mastermind" width="400"
+                    height="500">
+            </div>
+        </div>
+    </div>
+    <div class="css-content css-container css-padding-64" id="project2">
+            <h3 class="css-center">Taijitan</h3>
+            <p class="css-center">
+                <em> Our second project, was commissioned by Taijitan Yoshin Ryu, a Jiu Jitsu club from Ghent.
+                    <br> The commission was to create a webtool which can be managed via an administrator-tool.<br> Clubmembers could look up lessons for their grade via the webtool and register their attendance efficiently.</em>
+            </p>
+            <div class="css-row">
+                    <div class="css-col m8 css-padding-large">
+            <p>This was our first project for an external party. It was also the first project which consisted of 2 seperate projects: the webtool and the admin-tool. <br><br>For this project, we used iterations. Every 2 weeks there was a planned date and time, where we could talk about our progress and ask if anything can, or needs to be, changed.
+                The webtool was created in ASP.NET, the administrator-tool in Java. ASP.Net was something we only recently learned about. In the beginning it all went really slow since we still had to figure out how to do certain functionalities in ASP.NET, but after a few weeks, it went better and better and we learned a lot of new things.
+                <br><br>The administrator-tool was also something new. We were used to working in Java, but since we already had an existing database as a result of our ASP.NET application, we had to practice a lot before we managed to integrate our existing SQL Server database, into our Java application.
+                <br><br> De administratortool was ook iets nieuw voor ons. We waren het ondertussen al gewoon om in Java te werken, maar aangezien er al data in onze databank zat door het maken van de webtool, moesten we deze data er ook weer uit halen. 
+                <br><br> This project is still in development, further information will be added by the end of May.
+            </p>
+            </div>
+                <div class="css-col m4 css-center css-padding-large">
+                    <br>
+                    <img src="/images/JiuJitsu.png" class="css-circle css-image" alt="Jiu Jitsu" width="400" height="500">
+                </div>
+            </div>
+        </div>
+        <div class="css-content css-container css-padding-64" id="project3">
+                <h3 class="css-center">Mobile game: Horizon Cruiser</h3>
+                <p class="css-center">
+                    <em> Horizon Cruiser is my personal project, which I started in the autumn of 2018.
+                        <br>It is a game, developped in Unity. The game is based on Temple Run and Subway Surfers. The core aspect of the game are the neon colours, since it is based on an 80s retro theme.</em>
+                </p>
+                <div class="css-row">
+                        <div class="css-col m8 css-padding-large">
+                <p>I started this project as a result of my interest in Unity and game development. I had zero experience with Unity, but the development of a game was something I always wanted to give a try.
+                    The theme of the game was a coincidence. I wanted to make something which wasn't too difficult since I wanted to start slowly. Subway Surfers uses a lot of basic inputs, so I based my work around that game. After a while, more and more elements were added to my project, and I wanted to give it my own twist.
+                    Since I love retro themed sci-fi books, I used that as my inspiration.
+                    <br><br>At this moment, the game is still in development as a result of a lack of time. I expect this game to be available in the Google Play Store by August
+                </p>
+                </div>
+                    <div class="css-col m4 css-center css-padding-large">
+                        <br>
+                        <img src="/images/horizoncruise.png" class="css-circle css-image" alt="Horizon Cruiser" width="400" height="500">
+                    </div>
+                </div>
+            </div>
+    <!-- Fourth Parallax Image with Contact Text -->
+    <div class="bgimg-4 css-display-container css-opacity-min">
+        <div class="css-display-middle">
+            <span class="css-xxlarge css-text-white css-wide">CONTACT</span>
+        </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="css-content css-container css-padding-64" id="contact">
+        <h3 class="css-center">Contact me!</h3>
+        <p class="css-center">
+            <em>I'd love your feedback!</em>
+        </p>
+
+        <div class="css-row css-padding-32 css-section">
+            <div class="css-col m4 css-container">
+                <!-- Add Google Maps -->
+                <div id="googleMap" class="css-round-large css-greyscale" style="width:100%;height:200px;"></div>
+            </div>
+            <div class="css-col m8 css-panel">
+                <div class="css-large css-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw css-hover-text-black css-xlarge css-margin-right"></i> HoGent, Gent
+                    <br>
+                    <i class="fa fa-phone fa-fw css-hover-text-black css-xlarge css-margin-right"></i> Phone: +32 471 48
+                    72 60
+                    <br>
+                    <i class="fa fa-phone fa-fw css-hover-text-black css-xlarge css-margin-right"></i> Home phone: +32 52 52 46 53
+                    <br>
+                    <i class="fa fa-envelope fa-fw css-hover-text-black css-xlarge css-margin-right"></i> Email:
+                    cvandamme1998@gmail.com
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="css-center css-black css-padding-64">
+        <a href="#home" class="css-button css-light-grey">
+            <i class="fa fa-arrow-up css-margin-right"></i>To the top</a>
+        <div class="css-xlarge css-section">
+            <a href="https://www.facebook.com/cedric.vandamme1998">
+                <i class="fa fa-facebook-official css-hover-opacity"></i>
+            </a>
+            <a href="https://www.instagram.com/cedric.vandamme/">
+                <i class="fa fa-instagram css-hover-opacity"></i>
+            </a>
+            <a href="https://github.com/CedricVD">
+                <i class="fa fa-github css-hover-opacity"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/cedric-van-damme-641779163/">
+                <i class="fa fa-linkedin css-hover-opacity"></i>
+            </a>
+        </div>
+        Powered by
+        <p>
+            <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                class="css-hover-text-green">w3.css</a>
+        </p>
+    </footer>
+
+    <!-- Google Maps -->
+    <script>
+        function initMap() {
+            myCenter = new google.maps.LatLng(51.031196, 3.706379);
+            var mapOptions = {
+                center: myCenter,
+                zoom: 12,
+                scrollwheel: false,
+                draggable: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+            });
+            marker.setMap(map);
+        }
+
+        // Change style navbar on scroll
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "css-bar" + " css-card" + " css-animate-top" + " css-white";
+            } else {
+                navbar.className = navbar.className.replace(" css-card css-animate-top css-white", "");
+            }
+        }
+
+        // Toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("css-show") == -1) {
+                x.className += " css-show";
+            } else {
+                x.className = x.className.replace(" css-show", "");
+            }
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXLbro9QCh-27Ia0NFvTBX__3-hzcyN3s&callback=initMap"
+        type="text/javascript"></script>
+
+</body>
+
+</html>
